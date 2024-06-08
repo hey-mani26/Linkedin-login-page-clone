@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+body{
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 340px;
+    width: 260px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #80808065;
+    padding: 30px 15px 30px 15px;
+}
+h2{
+    font-size: 1.1rem;
+    color: #0a66c2;
+}
+h1{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 740;
+    margin-bottom: 3px;
+}
+.msg{
+    font-size: 0.7rem;
+    margin-bottom: 13px;
+    font-weight: 450;
+}
+input{
+    box-sizing: border-box;
+    width: 260px;
+    height: 40px;
+    margin-bottom: 10px;
+
+}
+.forgot {
+    color: #0a66c2;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration:none;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+a{
+    text-decoration: none;
+    color: #0a66c2;
+}
+button{
+    box-sizing: border-box;
+    width: 260px;
+    height: 40px;
+    border-radius: 25px;
+    background-color:  #0a66c2;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(5, 51, 97);
+}
+.join p{
+    margin-top: 20px;
+    display: inline;
+    color: #0a66c2;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
